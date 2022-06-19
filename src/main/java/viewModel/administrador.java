@@ -19,9 +19,10 @@ public class administrador {
 
     Conexion con = new Conexion();
     Connection cn = con.establecerConexion();
-
+    
     public void Registrar() {
         nombre = registro.txtnombre.getText();
+        System.out.println("Stiven");
         apellido = registro.txtapellido.getText();
         clave = registro.txtclave.getText();
         tipousuario = registro.tipodeusuario.getSelectedItem().toString();
