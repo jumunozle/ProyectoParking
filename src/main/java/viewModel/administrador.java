@@ -22,7 +22,7 @@ public class administrador {
     
     public void Registrar() {
         nombre = registro.txtnombre.getText();
-        System.out.println("Stiven");
+        System.out.println("WHAT´S UP");
         apellido = registro.txtapellido.getText();
         clave = registro.txtclave.getText();
         tipousuario = registro.tipodeusuario.getSelectedItem().toString();
